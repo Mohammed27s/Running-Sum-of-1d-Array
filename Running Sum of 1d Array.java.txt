@@ -1,0 +1,123 @@
+
+
+// Running Sum of 1d Array
+
+import java.util.Arrays;
+
+public class RunningSum {
+
+
+    public static void main(String[] args) {
+
+
+        System.out.println("******* Welcome to Goldman Collector game ^-^ ******* "+"\n");
+
+
+        Integer[] sourceGoldCoin1 = new Integer[]{1, 2, 3, 4};
+        Integer[] gainedGoldCoin1 = new Integer[sourceGoldCoin1.length];
+        Integer sumCoin1 = 0;
+
+
+
+        for(Integer i = 0; i <= sourceGoldCoin1.length -1; i++){
+
+            sumCoin1 += sourceGoldCoin1[i];
+            gainedGoldCoin1[i] = sumCoin1;
+
+            System.out.println(i+" you have earn "+gainedGoldCoin1[i]+" coin");
+
+        }
+
+
+        System.out.println("==================================================================================="+"\n");
+
+
+        Integer[] sourceGoldCoin2 = new Integer[]{1, 1, 1, 1, 1};
+        Integer[] gainedGoldCoin2 = new Integer[sourceGoldCoin2.length];
+        Integer sumCoin2 = 0;
+
+        for(Integer j = 0; j <= sourceGoldCoin2.length -1; j++){
+
+            sumCoin2 += sourceGoldCoin2[j];
+            gainedGoldCoin2[j] = sumCoin2;
+
+            System.out.println(j+" you have earn "+gainedGoldCoin2[j]+" coin");
+
+
+        }
+
+        System.out.println("=============================================================================="+"\n");
+
+        Integer[] sourceGoldCoin3 = new Integer[]{3, 5, 2, 7};
+        Integer[] gainedGoldCoin3 = new Integer[sourceGoldCoin3.length];
+        Integer sumCoin3 = 0;
+
+        for(Integer n = 0; n <= sourceGoldCoin3.length -1; n++){
+
+            sumCoin3 += sourceGoldCoin3[n];
+            gainedGoldCoin3[n] = sumCoin3;
+
+            System.out.println(n+" you have earn "+gainedGoldCoin3[n]+" coin");
+
+        }
+
+        System.out.println("=============================================================================="+"\n");
+
+        Integer[] sourceGoldCoin4 = new Integer[]{0, 0, 0, 0};
+        Integer[] gainedGoldCoin4 = new Integer[sourceGoldCoin4.length];
+        Integer sumCoin4 = 0;
+
+        for(Integer o = 0; o <= sourceGoldCoin4.length -1; o++){
+
+            sumCoin4 += sourceGoldCoin4[o];
+            gainedGoldCoin4[o] = sumCoin4;
+
+            System.out.println(o+" you have earn "+gainedGoldCoin4[o]+" coin");
+
+        }
+
+
+        System.out.println("=============================================================================="+"\n");
+
+        Integer[] sourceGoldCoin5 = new Integer[]{-1, -2, -3, -4};
+        Integer[] gainedGoldCoin5 = new Integer[sourceGoldCoin5.length];
+        Integer sumCoin5 = 0;
+
+        for(Integer p = 0; p <= sourceGoldCoin5.length -1; p++){
+
+            sumCoin5 += sourceGoldCoin5[p];
+            gainedGoldCoin5[p] = sumCoin5;
+
+            System.out.println(p+" you have earn "+gainedGoldCoin5[p]+" coin");
+
+        }
+
+
+        System.out.println("=============================================================================="+"\n");
+
+        Integer[] sourceGoldCoin6 = new Integer[]{10, -2, 3, -1};
+        Integer[] gainedGoldCoin6 = new Integer[sourceGoldCoin6.length];
+        Integer sumCoin6 = 0;
+
+        for(Integer m = 0; m <= sourceGoldCoin6.length -1; m++){
+
+            sumCoin6 += sourceGoldCoin6[m];
+            gainedGoldCoin6[m] = sumCoin6;
+
+            System.out.println(m+" you have earn "+gainedGoldCoin6[m]+" coin");
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+}
